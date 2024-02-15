@@ -22,25 +22,7 @@ decoder.reset();
 
 </br>
 Example:
-```
-#include "SN74LV8153.h"
 
-S2PI decoder;
-const uint8_t serial_pin = 2;
-const uint8_t reset_pin = 3;
-const uint8_t device_address = 0;      //set by pin programming, ref. datasheet
-
-void setup(){
-  decoder.begin(serial_pin, reset_pin);
-}
-
-void loop(){
-  uint8_t data = 0xff;    //8-bit data to send to chip
-
-  decoder.output(device_address, data);
-
-  while(1);
-}
 ```
 #include "SN74LV8153.h"
 

@@ -4,7 +4,7 @@ ref. datasheet: https://www.ti.com/lit/ds/symlink/sn74lv8153.pdf?ts=170714379590
 
 Use:
 
-S2PI decoder;
+S2PI decoder;</br>
 decoder.begin([serial_pin], [reset_pin]);
 
 or

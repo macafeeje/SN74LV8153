@@ -4,7 +4,7 @@ ref. datasheet: https://www.ti.com/lit/ds/symlink/sn74lv8153.pdf?ts=170714379590
 
 Use:
 ```
-S2PI decoder;</br>
+S2PI decoder;
 decoder.begin([serial_pin], [reset_pin]);
 ```
 or
@@ -14,7 +14,7 @@ S2PI decoder([serial_pin], [reset pin]);
 To write to the device:
 ```
 decoder.output([device_address (pin programmed, ref. datasheet)], [8 bit data]);
-``
+```
 To reset the device (optional, reset's all pins, ref. datasheet):
 ```
 decoder.reset();

@@ -23,7 +23,7 @@ decoder.reset();
 </br>
 Example:
 ```
-#include "SN74LV8153.h"
+//#include "SN74LV8153.h"
 
 S2PI decoder;
 const uint8_t serial_pin = 2;

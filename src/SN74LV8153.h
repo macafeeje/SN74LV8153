@@ -6,7 +6,7 @@ This source code is licensed under the GNUv3.0-style license found in the
 LICENSE file in the root directory of this source tree. 
 */
 
-//chip datasheet - https://www.ti.com/lit/ds/symlink/sn74lv8153.pdf?ts=1707143795904&ref_url=https%253A%252F%252Fwww.google.com%252F
+//chip datasheet - https://www.ti.com/lit/ds/symlink/sn74lv8153.pdf
 //one wire serial to parallel data converter
 
 #pragma once

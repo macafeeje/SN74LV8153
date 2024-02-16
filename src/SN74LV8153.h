@@ -21,12 +21,12 @@ private:
 
 
 public:
-  S2PI_decoder(){
+  void S2PI_decoder(){
     
   }
 
 public:
-  S2PI_decoder(const uint8_t serial, const uint8_t reset){
+  void S2PI_decoder(const uint8_t serial, const uint8_t reset){
     //optional constructor
 
     begin(serial, reset);
